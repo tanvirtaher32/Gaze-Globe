@@ -39,7 +39,7 @@ const Home = () => {
           h="full"
           p={'4'}
           alignItems={'center'}
-          direction={['column', 'row']}
+          direction={['column', 'column', 'row']}
         >
           <Image src={img5} h={['40', '400']} filter={'hue-rotate(-130deg)'} />
 
