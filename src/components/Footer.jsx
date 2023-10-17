@@ -1,19 +1,19 @@
 import React from 'react';
 import {
-    Box,
-    Button,
-    Heading,
-    HStack,
-    Input,
-    Stack,
-    Text,
-    VStack,
-  } from '@chakra-ui/react';
+  Box,
+  Button,
+  Heading,
+  HStack,
+  Input,
+  Stack,
+  Text,
+  VStack,
+} from '@chakra-ui/react';
 import { AiOutlineSend } from 'react-icons/ai';
 
 const Footer = () => {
-    return (
-        <Box bgColor={'blackAlpha.900'} minH={'40'} p="16" color={'white'}>
+  return (
+    <Box bgColor={'blackAlpha.900'} minH={'40'} p="16" color={'white'}>
       <Stack direction={['column', 'row']}>
         <VStack alignItems={'stretch'} w={'full'} px={'4'}>
           <Heading
@@ -76,7 +76,7 @@ const Footer = () => {
         </VStack>
       </Stack>
     </Box>
-    );
+  );
 };
 
 export default Footer;
